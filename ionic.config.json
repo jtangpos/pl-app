@@ -1,5 +1,7 @@
 {
-  "name": "phRomo",
-  "integrations": {},
+  "name": "PLINQ",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
