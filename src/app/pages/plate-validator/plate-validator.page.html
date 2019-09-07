@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>Plate Validator</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-list lines="none">
+          <ion-item color="tertiary">
+            <ion-input
+              [(ngModel)]="plateNumber"
+              placeholder="Type Plate Number"
+            ></ion-input>
+            <ion-icon
+              slot="end"
+              (click)="validatePlate()"
+              name="paper-plane"
+            ></ion-icon>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-list lines="none">
+          <ion-list-header>
+            Scheduled Renewal
+          </ion-list-header>
+          <ion-item>
+            <ion-label>Month : </ion-label>
+            <ion-text slot="end">{{ selectedMonth }}</ion-text>
+          </ion-item>
+          <ion-item>
+            <ion-label>Week : </ion-label>
+            <ion-text slot="end">{{ selectedWeek }}</ion-text>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
