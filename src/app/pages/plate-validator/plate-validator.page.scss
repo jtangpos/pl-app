@@ -6,6 +6,64 @@ ion-list-header {
   text-align: center;
   font-size: 24px;
 }
+ion-list {
+  border-radius: 5px;
+}
 ion-label {
   font-weight: bold;
+}
+ion-input {
+  background-color: #CEE5FF;
+  border: 1px solid #287FE4;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #287FE4;
+  text-transform: uppercase;
+}
+.plate {
+  text-transform: uppercase;
+}
+
+.note {
+  background-color: #CEE5FF;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  p {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+  }
+  ol {
+    font-size: 12px;
+    margin: 0;
+    padding-left: 13px;
+  }
+}
+.disclamer {
+  background-color: #CEE5FF;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  p {
+    font-size: 12px;
+
+  }
+}
+.result {
+  background-color: #CEE5FF;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+ion-button {
+  box-shadow: none !important;
+  --box-shadow:none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #287FE4;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
